@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.team-member {
+    display: inline-block;
+    margin: 20px;
+    position: relative;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+.team-member img {
+    width: 70%; /* Adjust image size here */
+    border-radius: 20%;
+    border: 5px solid #fff; /* Add a white border around the images */
+    display: block;
+    margin: 0 auto; /* Center the image horizontally */
+}
+.sticker {
+    width: 5px; /* Adjust sticker size here */
+    position: relative;
+    top: 2px; /* Adjust sticker positioning */
+    right: 9px; /* Adjust sticker positioning */
+}
